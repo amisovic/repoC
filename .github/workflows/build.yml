@@ -31,5 +31,7 @@ jobs:
       uses: actions/checkout@v4
     - name: Simulate build
       run: |
+        ls -l
+        cat repoC.txt || true
         echo "This build process for application C"
         sleep 5
